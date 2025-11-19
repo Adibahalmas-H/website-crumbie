@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
+    <title>FAVORIT</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand fw-bold" href="#">CRUMBIE</a>
+
+            <!-- Tombol untuk tampilan mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" aria-current="page" href="1home.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a href="2favorit.html" class="nav-link">Favorit</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a href="3About.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a href="4menu.html" class="nav-link">Menu</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a href="5footer.html" class="nav-link">Riview</a>
+                    </li>
+                </ul>
+                <div class="mx-4">
+                    <button type="button" onclick="window.location.href='order.html'" class="button-primary ">ORDER
+                        NOW</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Heading -->
+    <section id="order">
+        <div class="card bg-dark text-white">
+            <img src="baground/baground order.jpg" class="card-img " alt="baground"
+                style="object-fit: cover; height: 120vh;">
+            <div class="card-img-overlay " style="background-color: rgba(0, 0, 0, 0.7);">
+                <div class=" text-center py-4 text-white ">
+                    <h3 style="font-size: 48px; color: #E0B44B;">LET'S ORDER</h3>
+                </div>
+
+                <!-- Crad -->
+                <div class="container my-4 py-4 ">
+                    <div class="row row-cols-1 row-cols-md-3 g-3 justify-content-center text-center">
+                        <div class="col">
+                            <div class="card-favorit h-100 border-0 shadow-sm"
+                                style="background-color: rgb(255, 255, 255, 0.2);border-radius: 15px;">
+                                <img src="baground/Desain_tanpa_judul__9_-removebg-preview.png" class="card-img-top"
+                                    alt="Croissant"
+                                    style="width: 80%; height: auto; margin: 20px auto; object-fit: contain;">
+                                <div class="card-body">
+                                    <h2 class="card-title" style=" color: #fff;">Whatsapp</h2>
+                                    <button type="button" onclick="window.open('https://wa.me/6281234567890', '_blank')"
+                                        class="button-primary">Order Now</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card-favorit h-100 border-0 shadow-sm"
+                                style="background-color: rgb(255, 255, 255, 0.2); border-radius: 15px;">
+                                <img src="baground/Desain_tanpa_judul__10_-removebg-preview.png" class="card-img-top"
+                                    alt="Milk Bun"
+                                    style="width: 80%; height: auto; margin: 20px auto; object-fit: contain;">
+                                <div class="card-body">
+                                    <h2 class="card-title" style="color: #fff;">Shopeefood</h2>
+                                    <button type="button"
+                                        onclick="window.open('https://shopee.co.id/universal-link/now-food/shop/289788?deep_and_deferred=1&share', '_blank')"
+                                        class="button-primary">Order Now</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card-favorit h-100 border-0 shadow-sm"
+                                style="background-color: rgb(255, 255, 255, 0.2); border-radius: 15px;">
+                                <img src="baground/Desain_tanpa_judul__8_-removebg-preview.png" class="card-img-top"
+                                    alt="Sesame Bun"
+                                    style="filter: brightness(3);width: 80%; height: auto; margin: 20px auto; object-fit: contain;">
+                                <div class="card-body">
+                                    <h2 class="card-title" style="color: #fff;">Grabfood</h2>
+                                    <button type="button"
+                                        onclick="window.open('https://food.grab.com/id/id/chain/holland-bakery-delivery', '_blank')"
+                                        class="button-primary">Order Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+        <link href="../css side/style.css" rel="stylesheet">
+    <title>Halaman 3</title>
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand fw-bold" href="#">CRUMBIE</a>
+
+            <!-- Tombol untuk tampilan mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" aria-current="page" href="crumbie.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a href="favorit.html" class="nav-link">Favorit</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a href="about.html" class="nav-link active">About</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a href="menu.html" class="nav-link">Menu</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a href="footer.html" class="nav-link">Riview</a>
+                    </li>
+                </ul>
+                <div class="mx-4">
+                    <button type="button" onclick="window.location.href='order.html'" class="button-primary ">ORDER NOW</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="About">
+        <div class="card text-white border-0">
+            <img src="../baground/coba.png" class="card-img" alt="baground" style="object-fit: cover; height: 100vh;">
+            <div class="row align-items-center justify-content-center card-img-overlay">
+
+                <!-- teks -->
+                <div class="col-md-6 text-center text-md-start">
+                    <h2 style="color: #E0B44B;">Crumbie</h2>
+                    <h2 style="color: #E0B44B;">Cita Rasa yang Diakui Kualitasnya</h2>
+                    <hr>
+                    <p>
+                        Dibuat dari bahan pilihan terbaik dan tanpa pengawet, setiap roti Crumbie menghadirkan rasa
+                        otentik
+                        dan kelezatan yang konsisten.
+                        Dengan dedikasi tinggi terhadap kualitas, Crumbie telah meraih kepercayaan pelanggan serta
+                        penghargaan atas inovasi dan cita rasa.
+                    </p>
+                    <button type="button" onclick="document.getElementById('menu').scrollIntoView({behavior: 'smooth'})"
+                        class="button-primary-nonavbar">LIHAT MENU</button>
+                </div>
+
+                <!-- gambar -->
+                <div class="col-md-5 text-center text-md-end">
+                    <img src="../baground/download__1_-removebg-preview.png" alt="roti" class="img-fluid"
+                        style="max-width: 100%; height: auto;">
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

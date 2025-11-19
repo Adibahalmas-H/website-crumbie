@@ -1,0 +1,145 @@
+/* ROOT */
+:root {
+    --pr-color: #fff;
+}
+
+/* BODY */
+body {
+    padding-top: 4rem;
+    overflow-x: hidden;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: black;
+}
+
+.nav-brand {
+    font-weight: 700;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+/* BUTTON */
+.button-primary {
+    width: 120px;
+    height: 52px;
+    background-color: #8B5E3C;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-primary:hover {
+    background-color: #8B5E3C;
+    transform: scale(1.05);
+}
+.button-secondary{
+    width: 170px;
+    height: 52px; 
+    background-color:transparent ; 
+    color: #fff ; 
+    border:3px solid#D2CF37;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-secondary:hover {
+  background-color: #8B5E3C;
+  transform: scale(1.05);
+}
+
+
+/* CARD */
+.card-carausel {
+    width: 304px;
+    height: 568px;
+    border-radius: 15px;
+    background-color: #5D4949;
+    margin: auto;
+    color: #fff;
+    padding-bottom: 16px;
+    border-radius: 15px;
+}
+.card-body-carausel {
+    padding: 16px 16px 16px; /* bikin jarak dalam card */
+    text-align: left;
+}
+
+
+/* IMAGE */
+.card-img-top-carausel {
+    width: 100%;
+    height: 300px;
+    padding: 16px;
+    border-radius: 15px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+/* CARD TEXT */
+.card-title-carausel {
+    font-size: 32px;
+    color: #DCAF50;
+    
+}
+
+.card-text-carausel {
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 8px;
+}
+
+/* SECTION TITLE */
+.heading {
+    color: #E0B44B;
+    font-size: 64px;
+}
+
+.deskripsi {
+    color: #D6D6D6;
+    font-size: 24px;
+    font-weight: 100;
+}
+.swiper-slide-active .card-carausel {
+    background-color: #8B5E3C;
+    transition: .3s;
+    outline: 6px solid #E8E674; 
+    outline-offset: 0px; 
+}
+.swiper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.mySwiper {
+    width: 90%;  
+    margin: auto;
+}
+
+/* SWIPER BUTTON */
+.swiper-button-next,
+.swiper-button-prev {
+    color: #DCAF50;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.swiper-button-next {
+    right: 10px;
+}
+
+.swiper-button-prev {
+    left: 10px;
+}

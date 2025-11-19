@@ -1,0 +1,58 @@
+body {
+    padding-top: 4rem;
+    overflow-x: hidden;
+}
+
+.root{
+    --pr-color : #fff;
+}
+.navbar{
+    background-color: black;
+}
+.nav-brand{
+    font-weight: 700;
+}
+.nav-link{
+    font-size: 20px ;
+}
+.nav-link.active{
+    font-weight: 700 ;
+}
+.button-primary{
+    width: 120px;
+    height: 52px; 
+    background-color:#8B5E3C ; 
+    color: #fff ; 
+    border:none;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-primary:hover {
+  background-color: #8B5E3C;
+  transform: scale(1.05);
+}
+.button-primary-nonavbar{
+    width: 146px;
+    height: 52px; 
+    background-color:#8B5E3C ; 
+    color: #fff ; 
+    border:none;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-primary-nonavbar:hover {
+  background-color: #8B5E3C;
+  transform: scale(1.05);
+}
+.card-favorit{
+    transition: transform 0.3s; 
+}
+.card-favorit:hover {
+  transform: translateY(-10px);
+}/*

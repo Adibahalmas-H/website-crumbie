@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="carousel.css">
+    <title>home</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand fw-bold" href="#">CRUMBIE</a>
+
+            <!-- Tombol untuk tampilan mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active" aria-current="page" href="1home.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a href="2favorit.html" class="nav-link">Favorit</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a href="3About.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a href="4menu.html" class="nav-link">Menu</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a href="5footer.html" class="nav-link">Riview</a>
+                    </li>
+                </ul>
+                <div class="mx-4">
+                    <button type="button" onclick="window.location.href='order.html'" class="button-primary ">ORDER NOW</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Page 1 -->
+    <section id="Home">
+        <div class="card bg-dark text-white">
+            <img src="baground/Desain tanpa judul (6).png" class="card-img" alt="baground">
+            <div class="card-img-overlay text-center py-5">
+                <h1 class="card-title">Freshly Baked, Just For You!</h1>
+                <p class="card-text">Dari oven yang beruap hangat,kami menghadirkan rasa yang memeluk tanpa kata.</p>
+                <button type="button" onclick="document.getElementById('menu').scrollIntoView({behavior: 'smooth'})"
+                    class="button-secondary">LIHAT MENU</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Page 2-->
+    <section id="Favorit">
+        <div style="background: linear-gradient(180deg, #000000 50%, #403E3E 100%);" class="
+    py-4 px-4">
+            <div class="text-center py-4 text-white">
+                <h2 style="color: #E0B44B;">REKOMENDATION FOR YOU</h2>
+                <p>Temukan roti pilihan yang kami siapkan khusus untuk melengkapi harimu.</p>
+            </div>
+            <div class="container my-4">
+                <div class="row row-cols-1 row-cols-md-3 g-3 justify-content-center text-center">
+                    <div class="col">
+                        <div class="card-favorit h-100 border-0 shadow-sm"
+                            style="background-color: rgba(255, 255, 255, 0.1); backdrop-filter: blur(8px); border-radius: 15px;">
+                            <img src="baground/croissant.png" class="card-img-top" alt="Croissant"
+                                style="width: 80%; height: auto; margin: 20px auto; object-fit: contain;">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-size: 1rem; color: #E0B44B;">CROISSANT</h5>
+                                <p class="card-text text-white" style="font-size: 0.9rem;">
+                                    Croissant gurih berlapis keju leleh, dibuat dari bahan berkualitas dengan rasa
+                                    lembut dan nikmat.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card-favorit h-100 border-0 shadow-sm"
+                            style="background-color: rgba(255, 255, 255, 0.1); backdrop-filter: blur(8px); border-radius: 15px;">
+                            <img src="baground/sourdoght.png" class="card-img-top" alt="Milk Bun"
+                                style="width: 80%; height: auto; margin: 20px auto; object-fit: contain;">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-size: 1rem; color: #E0B44B;">SOURDOUGH</h5>
+                                <p class="card-text text-white" style="font-size: 0.9rem;">
+                                    Sourdough dengan cita rasa asam alami, tekstur renyah di luar dan lembut di dalam,
+                                    dibuat dari bahan pilihan tanpa ragi instan.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card-favorit h-100 border-0 shadow-sm"
+                            style="background-color: rgba(255, 255, 255, 0.1); backdrop-filter: blur(8px); border-radius: 15px;">
+                            <img src="baground/Sesamebun.png" class="card-img-top" alt="Sesame Bun"
+                                style="width: 80%; height: auto; margin: 20px auto; object-fit: contain;">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-size: 1rem; color: #E0B44B;">SESAME BUN</h5>
+                                <p class="card-text text-white" style="font-size: 0.9rem;">
+                                    Roti lembut berkilau bertabur wijen, dipanggang keemasan dengan aroma harum dan rasa
+                                    gurih menggoda.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Page 3-->
+    <section id="About">
+        <div class="card text-white border-0">
+            <img src="baground/coba.png" class="card-img" alt="baground" style="object-fit: cover; height: 100vh;">
+            <div class="row align-items-center justify-content-center card-img-overlay">
+
+                <!-- teks -->
+                <div class="col-md-6 text-center text-md-start">
+                    <h2 style="color: #E0B44B;">Crumbie</h2>
+                    <h2 style="color: #E0B44B;">Cita Rasa yang Diakui Kualitasnya</h2>
+                    <hr>
+                    <p>
+                        Dibuat dari bahan pilihan terbaik dan tanpa pengawet, setiap roti Crumbie menghadirkan rasa
+                        otentik
+                        dan kelezatan yang konsisten.
+                        Dengan dedikasi tinggi terhadap kualitas, Crumbie telah meraih kepercayaan pelanggan serta
+                        penghargaan atas inovasi dan cita rasa.
+                    </p>
+                    <button type="button" onclick="document.getElementById('menu').scrollIntoView({behavior: 'smooth'})"
+                        class="button-primary">LIHAT MENU</button>
+                </div>
+
+                <!-- gambar -->
+                <div class="col-md-5 text-center text-md-end">
+                    <img src="baground/download__1_-removebg-preview.png" alt="roti" class="img-fluid"
+                        style="max-width: 100%; height: auto;">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 4 -->
+    <section id="menu">
+        <div style="background: radial-gradient(circle at center, #08090B 30%, #2D2F3E 75%);" class="
+    py-4 px-4">
+            <div class="text-center py-4 text-white">
+                <h2 style="color: #E0B44B;">MENU</h2>
+                <p>Beragam varian roti dengan tekstur lembut dan aroma khas, siap menemani setiap momen Anda.</p>
+            </div>
+            
+    </section>
+
+
+    <!-- Page 5 -->
+    <section id="Review">
+        <div class="card bg-dark text-white">
+            <img src="baground/patrick-langwallner-eWy6Yvcsppc-unsplash.jpg" class="card-img " alt="baground"
+                style="object-fit: cover; height: 120vh; " width="100%">
+
+            <div class="card-img-overlay " style="background-color: rgba(0, 0, 0, 0.7);">
+                <div class="text-center py-4">
+                    <h2 style="color: #E0B44B;">REVIEW CUSTOMER</h2>
+                </div>
+
+                <div class="container py-2 text-center">
+
+                    <!-- Row 1 -->
+                    <div class="row mb-4 text-center text-md-start align-items-center justify-content-center">
+                        <div class="col-md-5 mb-3 mb-md-0 d-flex align-items-center">
+                            <img src="baground/download (8).jpeg" alt="roti" class="rounded-circle me-3" width="100"
+                                height="100" style="object-fit: cover;">
+                            <div>
+                                <h6 class="mb-1" style="color: #E0B44B;">Anak Baik</h6>
+                                <p class="mb-0" style="color: #fff;">Rasanya mantap banget</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5 d-flex align-items-center">
+                            <img src="baground/download (8).jpeg" alt="roti" class="rounded-circle me-3" width="100"
+                                height="100" style="object-fit: cover;">
+                            <div>
+                                <h6 class="mb-1" style="color: #E0B44B;">Anak Hebat</h6>
+                                <p class="mb-0 " style="color: #fff;">Roti lembut dan enak banget!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 2 -->
+                    <div class="row text-center text-md-start align-items-center justify-content-center">
+                        <div class="col-md-5 mb-3 mb-md-0 d-flex align-items-center">
+                            <img src="baground/download (8).jpeg" alt="roti" class="rounded-circle me-3" width="100"
+                                height="100" style="object-fit: cover;">
+                            <div>
+                                <h6 class="mb-1" style="color: #E0B44B;">Anak Ceria</h6>
+                                <p class="mb-0 " style="color: #fff;">Lembut banget, aroma rotinya enak.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5 d-flex align-items-center">
+                            <img src="baground/download (8).jpeg" alt="roti" class="rounded-circle me-3" width="100"
+                                height="100" style="object-fit: cover;">
+                            <div>
+                                <h6 class="mb-1" style="color: #E0B44B;">Anak Pintar</h6>
+                                <p class="mb-0 " style="color: #fff;">Teksturnya lembut dan wangi!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer -->
+                <div class="mt-5" style="background-color: rgba(255, 255, 255, 0.2);">
+                    <div class="container py-4">
+                        <div class="row text-center text-md-start justify-content-between align-items-center">
+
+                            <div class="col-md-4 mb-3 mb-md-0">
+                                <h3 class="fw-bold text-white">CRUMBIE</h3>
+                                <div class="d-flex align-items-center gap-3 mt-2">
+                                    <img src="https://img.icons8.com/ios-filled/50/whatsapp--v1.png" alt="whatsapp"
+                                        width="24" height="24">
+                                    <img src="https://img.icons8.com/ios-filled/50/instagram-new--v1.png"
+                                        alt="instagram" width="24" height="24">
+                                    <img src="https://img.icons8.com/ios-filled/50/tiktok--v1.png" alt="tiktok"
+                                        width="24" height="24">
+                                </div>
+                            </div>
+
+                            <div class="col-md-4" style="color: #fff;">
+                                <h5>Contact Us</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li>Jl. Mawar No.45, Surabaya</li>
+                                    <li>0812-3456-7890</li>
+                                    <li>crumbiebakery@gmail.com</li>
+                                    <li>Buka setiap hari 07.00–21.00</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <hr class="border-light my-4">
+
+                        <div class="text-center small" style="color: #fff;">
+                            <p class="mb-0">Copyright © 2025 Crumbie Bakery</p>
+                            <p class="mb-0">All rights reserved. Designed with love for bread lovers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
